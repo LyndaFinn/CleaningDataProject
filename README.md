@@ -34,10 +34,18 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 2) Appends the test data to the bottom of the train data
 
 3) Eliminates columns that do not contain mean() or std() summaries
-We were instucted to keep just the mean and std columns. There were many columns that did not contain these varialbes, and they were elminated. I also chose to eliminate columns that might have had mean or std int their name, but did not contain the mean or std summary, indicated by the mean() or std() designation. The resulting 66 column names are describe in the codebook.
+We were instucted to keep just the mean and std columns. There were many columns that did not contain these varialbes, and they were elminated. I also chose to eliminate columns that might have had mean or std int their name, but did not contain the mean or std summary, indicated by the mean() or std() designation. The resulting 66 column names are describe in the CodeBook.
 
 4) Adds the subject and activity code as columns in the data set
 
 5) Replaces activity codes with named activities
 
 6) Writes tidy data with column means for each subject and activty to file
+
+## CodeBook.md contains the following
+
+A description of the variables found in tidy.txt and processed by the file run_analysis.R
+
+## Tidy.txt contains the following
+
+For each subject and activity the means of each column described in the CodeBook
