@@ -1,7 +1,7 @@
 CleaningDataProject
 ===================
 
-Files for the project for the Coursera Getting and Cleaning Data Class
+# Files for the project for the Coursera Getting and Cleaning Data Class
 
 The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
 
@@ -11,7 +11,7 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-My script run_analysis.R does the following:
+# My script run_analysis.R does the following:
 
 1) read in the relevant data described below:
 
@@ -34,7 +34,7 @@ My script run_analysis.R does the following:
 2) Append the test data to the bottom of the train data
 
 3) Eliminate columns that do not contain mean() or std() summaries
-We were instucted to keep just the mean and std columns. There were many columns that did not contain these varialbes, and they were elminated. I also chose to eliminate columns that might have had mean or std int he name, but did not contain the mean or std summary, indicated by the mean() or std() designation. The resulting 66 column names are describe in the codebook.
+We were instucted to keep just the mean and std columns. There were many columns that did not contain these varialbes, and they were elminated. I also chose to eliminate columns that might have had mean or std int their name, but did not contain the mean or std summary, indicated by the mean() or std() designation. The resulting 66 column names are describe in the codebook.
 
 4) Add the subject and activity code as columns in the data set
 
